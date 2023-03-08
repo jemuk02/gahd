@@ -1,6 +1,8 @@
 #!/bin/bash
-i=10080
-while [ "$i" -ne 0 ]
-do
-  i=./runEmailAgent
-  sleep 10
+$i = 360
+do {
+    Write-Host $i
+    Sleep 7200
+    $i--
+} while ($i -gt 0){
+return 0}
