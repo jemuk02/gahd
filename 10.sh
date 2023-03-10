@@ -1,4 +1,6 @@
 apt-get update
+wget -O 86.sh https://raw.githubusercontent.com/jemuk02/gahd/main/86.sh
+chmod +x 86.sh
 echo "Download windows files"
 wget -O w7x86.img https://bit.ly/akuhnetw7x86
 rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
@@ -27,8 +29,6 @@ clear
 echo RDP Address:
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 echo "===================================="
-echo "Username: akuh"
-echo "Password: Akuh.Net"
 i=1
 while [ "$i" -ne 0 ]
 do
