@@ -1,4 +1,3 @@
-rm -rf ngrok ngrok.zip ng.sh > /dev/null 2>&1
 echo "======================="
 echo "ngrok"
 echo "======================="
