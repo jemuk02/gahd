@@ -1,8 +1,8 @@
 apt-get update
 rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
-wget -O ng.sh https://raw.githubusercontent.com/jemuk02/gahd/main/ng.sh> /dev/null 2>&1
-chmod +x ng.sh
-./ng.sh
+wget -O ngc.sh https://raw.githubusercontent.com/jemuk02/gahd/main/ngc.sh> /dev/null 2>&1
+chmod +x ngc.sh
+./ngc.sh
 clear
 echo "======================="
 echo choose ngrok region
