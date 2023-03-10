@@ -34,5 +34,5 @@ while [ "$i" -ne 0 ]
 do
   i= echo "jemuk menuk"
   
-  sleep 10
+  sleep 400
   done
